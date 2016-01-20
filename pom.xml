@@ -3,12 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>core</groupId>
-	<artifactId>TheoryTest</artifactId>
+	<artifactId>TheoryTest_002</artifactId>
 	<!--  <version>${build.version}</version>  -->
 		<version>1.1</version>
 	<packaging>jar</packaging>
 
-	<name>TheoryTest</name>
+	<name>TheoryTest_002</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -51,7 +51,8 @@
 					<archive>
 						<manifest>
 							<!-- <mainClass>core.Selenium_csv</mainClass>  -->
-							<mainClass>${mainClass}</mainClass>
+							<mainClass>core.TheoryTest_002</mainClass>
+							<!-- <mainClass>${mainClass}</mainClass> -->
 						</manifest>
 					</archive>
 					<descriptorRefs>

@@ -19,6 +19,6 @@ public class TheoryTest_002 {
 	@Theory
 		public void test_002_001(String s_01, String s_02, String s_03, String s_04, String s_05) {	
 		System.out.println(s_01 + s_02 + s_03 + s_04 + s_05 + " ");		
-		Assume.assumeThat(s_01 + s_02 + s_03 + s_04 + s_05, is("acbad"));
+		Assume.assumeThat(s_01 + s_02 + s_03 + s_04 + s_05, is("acbgd"));
 	}
 }
