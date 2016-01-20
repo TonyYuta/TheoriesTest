@@ -22,6 +22,6 @@ public class TheoryTest {
 	@Theory
 	public void a(Integer all_data_points) {
 		System.out.println(all_data_points);
-		Assume.assumeThat(all_data_points, is(2));
+		Assume.assumeThat(all_data_points, is(1));
 	}
 }
