@@ -9,19 +9,19 @@ import org.junit.experimental.theories.Theory;
 import org.junit.runner.RunWith;
 
 @RunWith(Theories.class)
-public class TheoryTest {
+public class TheoryTest_001 {
 	@DataPoint
-	public static Integer i_01 = 1;
+	public static Integer i_01 = 10;
 	
 	@DataPoint
-	public static Integer i_02 = 2;
+	public static Integer i_02 = 20;
 	
 	@DataPoint
-	public static Integer i_03 = 3;
+	public static Integer i_03 = 30;
 	
 	@Theory
 	public void a(Integer all_data_points) {
 		System.out.println(all_data_points);
-		Assume.assumeThat(all_data_points, is(1));
+		Assume.assumeThat(all_data_points, is(30));
 	}
 }
